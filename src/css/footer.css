@@ -1,0 +1,12 @@
+.container__footer {
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 12px;
+    margin: 1rem;
+}
+
+.footer__text {
+    margin-bottom: .5rem;
+    text-align: center;
+}

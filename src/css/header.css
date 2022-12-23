@@ -1,0 +1,14 @@
+.container__header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 1rem;
+}
+
+.header_logo {
+    width: 9vw;
+}
+
+@media screen and (max-width:768px) {
+    
+}

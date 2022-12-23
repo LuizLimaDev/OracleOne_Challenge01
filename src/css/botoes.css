@@ -1,0 +1,53 @@
+@import url("./variaveis.css");
+
+.decodificador__container-botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.botoes {
+    padding: 24px;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    width: 90vw;
+    border: none;
+    margin: .5rem 0;
+}
+
+.botoes__criptografar-img,
+.botoes__descriptografar-img,
+.botoes__copiar-img {
+    width: 5vw;
+    margin-right: .5rem;
+}
+
+.criptografar {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descriptografar {
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+    border: 1px solid var(--cor-terciaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copiar {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    border: 1px solid var(--cor-primaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: 0;
+}

@@ -1,0 +1,34 @@
+@import url("variaveis.css");
+
+.decodificador__campoTexto {
+    resize: none;
+    width: 90vw;
+    height: 30vh;
+    margin-top: 2rem;
+    background-color: transparent;
+    border: none;
+    color: var(--cor-terciaria);
+    font-size: 1.5rem;
+}
+
+.decodificador__campoTexto::placeholder {
+    color: var(--cor-terciaria);
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.decodificador__container-alerta {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.alerta__img {
+    width: 5vw;
+}
+
+.alerta__texto {
+    font-weight: 300;
+    font-size: 12px;
+    margin: .5rem; 
+}

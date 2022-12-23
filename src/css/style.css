@@ -1,0 +1,21 @@
+@import url("variaveis.css");
+@import url("header.css");
+@import url("main.css");
+@import url("decodificador.css");
+@import url("botoes.css");
+@import url("criptografia.css");
+@import url("footer.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto-primaria);
+    font-family: var(--fonte-principal);
+    height: 100vh;
+    margin: 1rem;
+}
