@@ -20,7 +20,7 @@
         <img src="./src/img/star.png" alt="estrela militar" class="header_logo">
     </header>
 
-    <main>
+    <main class="container__grid">
         <section class="container__decodificador">
             <textarea class="decodificador__campoTexto" placeholder="Digite seu texto" data-campoTexto></textarea>
 
@@ -29,22 +29,26 @@
                 <p class="alerta__texto"> Apenas letras minúsculas e sem acento.</p>
             </div>
 
-            <div class="decodificador__container-botoes">
-                <button class="botoes criptografar" data-cripitografar><img src="./src/img/shield.svg"
-                        alt="imagem de um escudo" class="botoes__criptografar-img"> Criptografar</button>
-            </div>
-            <div class="decodificador__container-botoes">
-                <button class="botoes descriptografar" data-descripitografar><img src="./src/img/shield-break.svg"
-                        alt="imagem de um escudo quebrado" class="botoes__descriptografar-img"> Descriptografar</button>
+            <div class="decodificador__containerGeral-botoes">
+                <div class="decodificador__container-botoes">
+                    <button class="botoes criptografar" data-cripitografar><img src="./src/img/shield.svg"
+                            alt="imagem de um escudo" class="botoes__criptografar-img"> Criptografar</button>
+                </div>
+                <div class="decodificador__container-botoes">
+                    <button class="botoes descriptografar" data-descripitografar><img src="./src/img/shield-break.svg"
+                            alt="imagem de um escudo quebrado" class="botoes__descriptografar-img">
+                        Descriptografar</button>
+                </div>
             </div>
         </section>
 
-        <aside>
+        <aside class="container__grid-aside">
             <section class="container__criptografia">
 
-                <div class="container__campoCriptografia active" data-msgInicial>
-                    <img src="./src/img/radar.png" class="campoCriptografia__img" alt="imagem de radar procurando algo">
-                    <div class="campoCriptografia-textos">
+                <div class="container__campoCriptografia" data-msgInicial>
+                    <img src="./src/img/radar.png" class="campoCriptografia__img" alt="imagem de radar procurando algo"
+                        data-criptografia-img>
+                    <div class="campoCriptografia-textos" data-criptografia-textos>
                         <h2 class="campoCriptografia__msgNenhumaMensagem">Nenhuma mensagem encontrada!</h2>
                         <p class="campoCriptografia__msgDigite">Digite um texto que você deseja criptografar ou
                             descriptografar.</p>
@@ -52,13 +56,6 @@
                 </div>
 
                 <div class="container__campoTextoCodificado" data-msgCodificada>
-                    <!-- <textarea class="campoTextoCodificado" cols="70" rows="30"></textarea>
-
-
-                    <div class="container__copiar">
-                        <button class="botoes copiar" data-copiar><img src="./src/img/copy.svg" alt="simbolo de copiar"
-                                class="botoes__copiar-img"> Copiar </button>
-                    </div> -->
                 </div>
 
             </section>
@@ -68,11 +65,11 @@
     </main>
 
     <footer>
-        <div class="container__footer">
+        <section class="container__footer">
             <p class="footer__text">
                 Desenvolvido por Luiz Lima ©
             </p>
-        </div>
+        </section>
     </footer>
 
     <script src="./src/Js/main.js"></script>
