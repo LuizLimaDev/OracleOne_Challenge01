@@ -1,6 +1,11 @@
-/* .container__grid {
-    width: 100vh;
-    display: grid;
-    grid-template-columns: 60%, 40%;
-    grid-template-areas: "principal lateral";
-} */
+@import url("variaveis.css");
+
+@media screen and (min-width: 1440px) {
+
+    .container__grid {
+        display: grid;
+        grid-template-areas: "main aside";
+        grid-template-columns: 80%, 20%;
+    }
+
+}

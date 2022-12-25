@@ -1,7 +1,20 @@
+//Tarefas
+// 1. Adicionar REGEX de validacao:
+// - Deve funcionar apenas com letras minúsculas
+// - Não devem ser utilizados letras com acentos nem caracteres especiais
+
+// 2. Exibir mensagem de erro para a entradas com caracteres invalidos ou vazio
+// - Throw error 
+// - try e tach
+
+// 3. Botao copiar
+
 //seletores globais
 let campoTexto = document.querySelector('.decodificador__campoTexto');
 const msgInicial = document.querySelector('[data-msgInicial');
 const msgCodificada = document.querySelector('[data-msgCodificada]');
+const imgRadar = document.querySelector('[data-criptografia-img]');
+const msgCriptografiaTextos = document.querySelector('[data-criptografia-textos]');
 const campoCodificacao = document.querySelector('.container__campoTextoCodificado');
 
 //Criptografia
@@ -20,8 +33,10 @@ function criptografar() {
             .replace(/u/gim, "ufat");
 
         //retorno na tela
-        msgInicial.classList.remove('active');
-        campoCodificacao.classList.add('active');
+        msgInicial.style= "display:none";
+        campoCodificacao.style= "display:flex";
+        imgRadar.style= "display:none";
+        msgCriptografiaTextos.style= "display:none";
 
         msgCodificada.innerHTML = `
             <textarea class="campoTextoCodificado" cols="70" rows="30">${criptografia}</textarea>
@@ -47,8 +62,10 @@ function descriptografar () {
             .replace(/ufat/gim, "u");
 
         //retorno na tela
-        msgInicial.classList.remove('active');
-        campoCodificacao.classList.add('active');
+        msgInicial.style= "display:none";
+        campoCodificacao.style= "display:flex";
+        imgRadar.style= "display:none";
+        msgCriptografiaTextos.style= "display:none";
 
         msgCodificada.innerHTML = `
             <textarea class="campoTextoCodificado" cols="70" rows="30">${resultado}</textarea>

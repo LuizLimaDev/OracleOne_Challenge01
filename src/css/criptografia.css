@@ -1,17 +1,18 @@
 @import url("variaveis.css");
+@import url("main.css");
 
 .container__criptografia {
-    width: 90vw;
+    width: 100%;
     background-color: var(--cor-secundaria);
     padding: 1rem;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.15) 2.95px 2.95px 4.6px;
     border-radius: 32px;
-    margin: 3rem 0;
+    margin: 4rem 0 1rem;
 }
 
 .container__campoCriptografia {
-    display: none;
+    display: flex;
 }
 
 .campoCriptografia-textos {
@@ -59,6 +60,49 @@
     margin-top: 2rem;
 }
 
-.active {
-    display: flex;
+@media screen and (min-width:768px) {
+
+    .container__criptografia {
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0;
+        width: 0 auto;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .container__grid-aside {
+        grid-area: "aside";
+    }
+
+    .container__criptografia {
+        margin: 2rem;
+        width: 29vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container__campoCriptografia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .campoCriptografia__img {
+        display: block;
+        width: 200px;
+        height: 200px;
+    }
+
+    .campoTextoCodificado {
+        width: 25vw;
+        height: 60vh;
+    }
+
+    .container__campoTextoCodificado {
+        height: 74vh;
+        justify-content: space-between;
+    }
 }

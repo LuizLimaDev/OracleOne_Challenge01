@@ -1,5 +1,4 @@
 @import url("./variaveis.css");
-
 .decodificador__container-botoes {
     display: flex;
     flex-direction: row;
@@ -7,12 +6,12 @@
 }
 
 .botoes {
-    padding: 24px;
+    padding: 20px;
     border-radius: 24px;
     font-weight: bold;
     font-size: 16px;
     text-align: center;
-    width: 90vw;
+    width: 100vw;
     border: none;
     margin: .5rem 0;
 }
@@ -50,4 +49,37 @@
     align-items: center;
     width: 80vw;
     margin: 0;
+}
+
+@media screen and (min-width:768px) {
+    .decodificador__containerGeral-botoes {
+        display: flex;
+        justify-content: space-around;
+        width: 0 auto;
+        margin-right: 0;
+    }
+
+    .botoes {
+        width: 42vw;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .decodificador__containerGeral-botoes {
+        width: 55vw;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .botoes {
+        width: 25vw;
+        height: 7vh;
+    }
+
+    .botoes__criptografar-img,
+    .botoes__descriptografar-img,
+    .botoes__copiar-img {
+        width: 2vw;
+        margin-right: .5rem;
+    }
 }
