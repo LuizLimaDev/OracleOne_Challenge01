@@ -34,5 +34,7 @@ Não poderá ser utilizado letras maiúsculas ou caracteres especiais. Caso ocor
 <br>
 
 <h3 align="center"> Se você curtiu o projeto, não deixe de marcar uma :star:
-https://www.linkedin.com/in/luizlima-dev/
+
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/luizlimadev)](https://github.com/luizlimadev)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luizlima-dev/)](https://www.linkedin.com/in/luizlima-dev/)
 
