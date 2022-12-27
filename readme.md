@@ -8,6 +8,8 @@ Esta é uma aplicação de criptografia de textos, você poderá trocar mensagen
 
 ![Desktop](https://user-images.githubusercontent.com/109322803/209678004-c13d55d6-1ebe-4171-aff8-3b0b995f1090.png)
 
+<br>
+
 <h2 align="center"> :key: Chaves da criptografia </h2>
 
 Existem algumas "letras" (chaves) que serão criptografadas:
@@ -21,9 +23,16 @@ A letra "u" é convertida para "ufat"
 Tornando a mensagem segura para envio. 
 As mesmas serão utilizadas de forma inversa para a descriptografia.
 
+<br>
+
 <h2 align="center"> :warning: Regras da criptografia </h2>
 
 Não poderá ser utilizado letras maiúsculas ou caracteres especiais. Caso ocorra, o usuário será alertado e os botões "desabilitados".
 
 ![Alert](https://user-images.githubusercontent.com/109322803/209679316-d4dccc41-dc11-4629-969b-d1991d2686c1.png)
+
+<br>
+
+<h3 align="center"> Se você curtiu o projeto, não deixe de marcar uma :star:
+https://www.linkedin.com/in/luizlima-dev/
 
