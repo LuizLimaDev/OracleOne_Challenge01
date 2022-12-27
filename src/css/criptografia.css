@@ -22,7 +22,8 @@
     margin: 1rem 0 1rem;
 }
 
-.campoCriptografia__img {
+.campoCriptografia__img,
+.copiar {
     display: none;
 }
 
@@ -57,15 +58,6 @@
     color: var(--cor-terciaria);
     font-size: 1.5rem;
     text-align: left;
-}
-
-.container__copiar {
-    display: flex;
-    margin-top: 2rem;
-}
-
-.copiar {
-    display: none;
 }
 
 @media screen and (min-width:768px) {
