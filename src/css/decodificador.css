@@ -16,6 +16,7 @@
     color: var(--cor-terciaria);
     text-align: left;
     font-size: 1.5rem;
+    display: flex;
 }
 
 .decodificador__container-alerta {
@@ -34,6 +35,11 @@
     margin: .5rem;
 }
 
+.texto__invalido {
+    color: lightcoral;
+    font-size: 26px;
+}
+
 @media screen and (min-width:768px) {
     .container__decodificador {
         height: 60vh;
@@ -44,7 +50,7 @@
 }
 
 @media screen and (min-width: 1440px) {
- 
+
     .container__decodificador {
         margin-left: 5rem;
         grid-area: "main";
@@ -56,6 +62,7 @@
         width: 60vw;
         height: 70vh;
         margin-right: 1rem;
+        padding: 0 0 35rem 1rem;
     }
 
     .alerta__img {

@@ -21,12 +21,13 @@
     </header>
 
     <main class="container__grid">
+
         <section class="container__decodificador">
             <textarea class="decodificador__campoTexto" placeholder="Digite seu texto" data-campoTexto></textarea>
 
             <div class="decodificador__container-alerta">
                 <img src="./src/img/alert.svg" class="alerta__img" alt="simbolo de alerta">
-                <p class="alerta__texto"> Apenas letras minúsculas e sem acento.</p>
+                <p class="alerta__texto" data-alerta> Apenas letras minúsculas e sem acento.</p>
             </div>
 
             <div class="decodificador__containerGeral-botoes">
@@ -34,6 +35,7 @@
                     <button class="botoes criptografar" data-cripitografar><img src="./src/img/shield.svg"
                             alt="imagem de um escudo" class="botoes__criptografar-img"> Criptografar</button>
                 </div>
+
                 <div class="decodificador__container-botoes">
                     <button class="botoes descriptografar" data-descripitografar><img src="./src/img/shield-break.svg"
                             alt="imagem de um escudo quebrado" class="botoes__descriptografar-img">
@@ -55,24 +57,27 @@
                     </div>
                 </div>
 
-                <div class="container__campoTextoCodificado" data-msgCodificada>
-                </div>
+                <div class="container__campoTextoCodificado" data-msgCodificada></div>
+
+                <button class="botoes copiar" data-copiar><img src="./src/img/copy.svg" alt="simbolo de copiar"
+                        class="botoes__copiar-img"> Copiar </button>
 
             </section>
-
         </aside>
-
     </main>
 
     <footer>
+
         <section class="container__footer">
             <p class="footer__text">
                 Desenvolvido por Luiz Lima ©
             </p>
         </section>
+
     </footer>
 
     <script src="./src/Js/main.js"></script>
+
 </body>
 
 </html>
